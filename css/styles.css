@@ -1,0 +1,105 @@
+body {
+  color: white;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.cars {
+  max-width: 65%;
+  margin: 20% auto;
+  text-align: left;
+  border-radius: 12px;
+}
+
+.sedan {
+  background-color: #E08633;
+  border-radius: 12px 0 0 12px;
+}
+
+.suv {
+  background-color: #0D6971;
+}
+
+.luxury {
+  background-color: #04403F;
+  border-radius: 0 12px 12px 0;
+}
+
+.car-icon {
+  padding: 3rem 1rem 1rem 2rem;
+}
+
+.car-heading {
+  font-family: "Big Shoulders Display", sans-serif;
+  padding: 1rem 1rem 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+
+}
+
+.car-para {
+  padding: 0.2rem 3.1rem 2rem 2rem;
+  font-weight: 300;
+  font-size: 15px;
+  opacity: 0.75;
+
+}
+
+.learn-more {
+  margin: 2rem 3.3rem 3rem 2rem;
+  padding: 0.7rem 1.8rem;
+  background-color: white;
+  border-radius: 25px;
+}
+
+#sedan-button{
+  color: #E08633;
+}
+
+#sedan-button:hover{
+  background-color: #E08633;
+  color: white;
+  border: 2px solid white;
+}
+
+#suv-button {
+  color: #0D6971;
+}
+
+#suv-button:hover{
+  background-color: #0D6971;
+  color: white;
+  border: 2px solid white;
+}
+
+#luxury-button {
+  color: #04403F;
+}
+
+#luxury-button:hover{
+  background-color: #04403F;
+  color: white;
+  border: 2px solid white;
+}
+
+@media(max-width: 992px){
+  .cars {
+    max-width: 80%
+  }
+
+  .car-para {
+    padding: 0.2rem 3.1rem 0.5rem 2rem;
+  }
+
+  .learn-more {
+    margin: 1rem 3.3rem 3rem 2rem;
+  }
+
+  .sedan {
+    border-radius: 12px 12px 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 12px 12px;
+  }
+
+}
